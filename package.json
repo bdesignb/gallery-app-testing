@@ -1,0 +1,25 @@
+{
+  "name": "webdriver-io-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^6.0.14",
+    "@wdio/mocha-framework": "^6.0.13",
+    "@wdio/selenium-standalone-service": "^6.0.12",
+    "@wdio/spec-reporter": "^6.0.14",
+    "@wdio/sync": "^6.0.14",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "webdriverio": "^6.0.14"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.0.14",
+    "node-fetch": "^2.6.0"
+  }
+}
